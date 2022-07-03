@@ -1,0 +1,205 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #201b2d;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.65em;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: rgba(78, 189, 254, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(78, 189, 254, 1) 0%,
+    rgba(78, 189, 254, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(78, 189, 254, 1)),
+    color-stop(100%, rgba(78, 189, 254, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(78, 189, 254, 1) 0%,
+    rgba(78, 189, 254, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(78, 189, 254, 1) 0%,
+    rgba(78, 189, 254, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(78, 189, 254, 1) 0%,
+    rgba(78, 189, 254, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(78, 189, 254, 1) 0%,
+    rgba(78, 189, 254, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#4ebdfe', GradientType=1 );
+  padding-top: 60px;
+  padding-bottom: 140px;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer {
+  margin-top: 137px;
+  width: 560px;
+}
+
+.title {
+  font-size: 37px;
+}
+
+.title span {
+  font-size: 59px;
+}
+
+.intro {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  width: 375px;
+}
+
+.btn {
+  font-family: "Montserrat", sans-serif;
+  background: #ffd429;
+  color: #2e2a1b;
+  display: block;
+  width: 220px;
+  padding: 19px 0;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #f4c60e;
+}
+
+.travel {
+  margin-top: 50px;
+}
+
+.future {
+  padding-top: 103px;
+  padding-bottom: 117px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 30px;
+}
+
+.emotions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.emotion {
+  width: 288px;
+  background: url("../img/time.jpg") no-repeat top;
+  padding-top: 85px;
+}
+
+.emotion-title {
+  font-size: 19px;
+}
+
+.emotion-text {
+  margin-top: 14px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+.emotion-free {
+  width: 270px;
+  background: url("../img/beach.jpg") no-repeat top;
+}
+
+.emotion-change {
+  background: url("../img/launch.jpg") no-repeat top;
+}
+
+.mail {
+  background: #ecf3f8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 55px;
+}
+
+.input {
+  width: 340px;
+  border: 1px solid #bbbbbb;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  height: 46px;
+  display: block;
+  margin: 13px auto;
+  padding: 13px;
+}
+
+.btn-form {
+  border: 0;
+  cursor: pointer;
+  display: inline;
+  width: 340px;
+}
+
+.footer {
+  padding: 57px 0;
+  background: #164d7a;
+  text-align: center;
+}
+
+.credits {
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0;
+}
